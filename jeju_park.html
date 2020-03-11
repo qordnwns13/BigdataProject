@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9a783671597c4c5ea3eb61a8330ff085 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_9a783671597c4c5ea3eb61a8330ff085" ></div>
+        
+</body>
+<script>    
+    
+            var map_9a783671597c4c5ea3eb61a8330ff085 = L.map(
+                "map_9a783671597c4c5ea3eb61a8330ff085",
+                {
+                    center: [33.389398, 126.541236],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a04d3859c2db47c4bf6204750ab29404 = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9a783671597c4c5ea3eb61a8330ff085);
+        
+    
+            var circle_marker_4422392409d54a1a9ef7d9007290589c = L.circleMarker(
+                [33.516518, 126.525296],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a783671597c4c5ea3eb61a8330ff085);
+        
+    
+        var popup_821cca80658344e2961309894bb24e34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5e1e3409805f41a7ac311ce3cfd6c88d = $(`<div id="html_5e1e3409805f41a7ac311ce3cfd6c88d" style="width: 100.0%; height: 100.0%;">칠성골14</div>`)[0];
+            popup_821cca80658344e2961309894bb24e34.setContent(html_5e1e3409805f41a7ac311ce3cfd6c88d);
+        
+
+        circle_marker_4422392409d54a1a9ef7d9007290589c.bindPopup(popup_821cca80658344e2961309894bb24e34)
+        ;
+
+        
+    
+    
+            var circle_marker_8f13b4f4d3dc40039f3cca7f4a882d10 = L.circleMarker(
+                [33.50472, 126.541789],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a783671597c4c5ea3eb61a8330ff085);
+        
+    
+        var popup_65ba954193c44788a08f26d6fbcab3d9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0ba49ae35624e198492b326015f597d = $(`<div id="html_e0ba49ae35624e198492b326015f597d" style="width: 100.0%; height: 100.0%;">인제공영65</div>`)[0];
+            popup_65ba954193c44788a08f26d6fbcab3d9.setContent(html_e0ba49ae35624e198492b326015f597d);
+        
+
+        circle_marker_8f13b4f4d3dc40039f3cca7f4a882d10.bindPopup(popup_65ba954193c44788a08f26d6fbcab3d9)
+        ;
+
+        
+    
+    
+            var circle_marker_4ebcc01637ce49d89e05dc17f1798bf0 = L.circleMarker(
+                [33.494673, 126.535459],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a783671597c4c5ea3eb61a8330ff085);
+        
+    
+        var popup_7efae127910e4fb6b449cb4f1ea0641c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3a3758f86c704e4c81d7090fd3dd581c = $(`<div id="html_3a3758f86c704e4c81d7090fd3dd581c" style="width: 100.0%; height: 100.0%;">법원북측39</div>`)[0];
+            popup_7efae127910e4fb6b449cb4f1ea0641c.setContent(html_3a3758f86c704e4c81d7090fd3dd581c);
+        
+
+        circle_marker_4ebcc01637ce49d89e05dc17f1798bf0.bindPopup(popup_7efae127910e4fb6b449cb4f1ea0641c)
+        ;
+
+        
+    
+    
+            var circle_marker_f1b79dcc4d3349aebf28ae55c9aa7c46 = L.circleMarker(
+                [33.494823, 126.535294],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a783671597c4c5ea3eb61a8330ff085);
+        
+    
+        var popup_b8805adf8ea849b0bfbbd881575742fc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_250472c86eca481b9e6fc6fed6b05678 = $(`<div id="html_250472c86eca481b9e6fc6fed6b05678" style="width: 100.0%; height: 100.0%;">이도2동76</div>`)[0];
+            popup_b8805adf8ea849b0bfbbd881575742fc.setContent(html_250472c86eca481b9e6fc6fed6b05678);
+        
+
+        circle_marker_f1b79dcc4d3349aebf28ae55c9aa7c46.bindPopup(popup_b8805adf8ea849b0bfbbd881575742fc)
+        ;
+
+        
+    
+    
+            var circle_marker_516c64df6265440bb6ad58ae7b07bd43 = L.circleMarker(
+                [33.249802, 126.562276],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a783671597c4c5ea3eb61a8330ff085);
+        
+    
+        var popup_12aa6b61b40e478cb992028da53c65b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57c4644f64db49a0a9d9ec23afc4fee6 = $(`<div id="html_57c4644f64db49a0a9d9ec23afc4fee6" style="width: 100.0%; height: 100.0%;">서귀중앙공영3</div>`)[0];
+            popup_12aa6b61b40e478cb992028da53c65b5.setContent(html_57c4644f64db49a0a9d9ec23afc4fee6);
+        
+
+        circle_marker_516c64df6265440bb6ad58ae7b07bd43.bindPopup(popup_12aa6b61b40e478cb992028da53c65b5)
+        ;
+
+        
+    
+    
+            var circle_marker_b908f00f113b45f8b4858ab24f7ce060 = L.circleMarker(
+                [33.51208, 126.52834],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a783671597c4c5ea3eb61a8330ff085);
+        
+    
+        var popup_b7ce09ec113f4132afff5f0e25d29026 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_665cce9e1b4b4f14936916d4e651f149 = $(`<div id="html_665cce9e1b4b4f14936916d4e651f149" style="width: 100.0%; height: 100.0%;">북수구(일도1동)38</div>`)[0];
+            popup_b7ce09ec113f4132afff5f0e25d29026.setContent(html_665cce9e1b4b4f14936916d4e651f149);
+        
+
+        circle_marker_b908f00f113b45f8b4858ab24f7ce060.bindPopup(popup_b7ce09ec113f4132afff5f0e25d29026)
+        ;
+
+        
+    
+    
+            var circle_marker_f42b7b345d7949a28ff5633826e95873 = L.circleMarker(
+                [33.51209, 126.528215],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4, "stroke": true, "weight": 3}
+            ).addTo(map_9a783671597c4c5ea3eb61a8330ff085);
+        
+    
+        var popup_57986ed8ba664d0a8f06e04df4def6ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0f8da72757d47cdb26c32712728f4a0 = $(`<div id="html_e0f8da72757d47cdb26c32712728f4a0" style="width: 100.0%; height: 100.0%;">동문시장174</div>`)[0];
+            popup_57986ed8ba664d0a8f06e04df4def6ce.setContent(html_e0f8da72757d47cdb26c32712728f4a0);
+        
+
+        circle_marker_f42b7b345d7949a28ff5633826e95873.bindPopup(popup_57986ed8ba664d0a8f06e04df4def6ce)
+        ;
+
+        
+    
+</script>
